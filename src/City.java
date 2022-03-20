@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 
 /**
  *
  * @author Kursat
  */
-public class City {
+public class City {//DB'deki column bilgilerine göre fieldlar oluşturuluyor.
     private int id;
     private String name;
     private String countryCode;
@@ -60,7 +57,4 @@ public class City {
     public void setPopulation(int population) {
         this.population = population;
     }
-
-
-    
 }
